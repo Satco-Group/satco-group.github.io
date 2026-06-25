@@ -3,15 +3,15 @@ layout: default
 title: SATCO | Global Commodities & Supply Chain Partner
 ---
 
-<!-- استایل اختصاصی برای درست کردن منو، چیدمان و بنر سفارشی بالا -->
 <style>
-  /* کد حذف کادر سبز و جایگزینی بنر بندرگاه و کالاها */
+  /* Custom Banner Implementation */
   .page-header {
     background-image: url('Banner.png') !important;
     background-size: cover !important;
     background-position: center !important;
   }
 
+  /* Navigation Bar Styling */
   .custom-nav {
     background: #1a252f;
     padding: 15px;
@@ -25,6 +25,8 @@ title: SATCO | Global Commodities & Supply Chain Partner
     text-decoration: none;
     font-weight: bold;
   }
+  
+  /* Dropdown Menu Styling */
   .dropdown {
     display: inline-block;
     position: relative;
@@ -49,6 +51,7 @@ title: SATCO | Global Commodities & Supply Chain Partner
   .dropdown-content a:hover { background-color: #f1f1f1; }
   .dropdown:hover .dropdown-content { display: block; }
   
+  /* Product Grid Styling */
   .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -58,13 +61,13 @@ title: SATCO | Global Commodities & Supply Chain Partner
   .product-card {
     background: #f8f9fa;
     padding: 15px;
-    border-left: 4px solid #cc7a00; /* رنگ مسی ساتکو */
+    border-left: 4px solid #cc7a00; /* SATCO Copper Accent */
     border-radius: 4px;
     font-weight: bold;
   }
 </style>
 
-<!-- ۱. انتقال منو به بالای صفحه با ویژگی کشویی برای کالاها -->
+<!-- 1. Navigation Menu -->
 <nav class="custom-nav">
   <a href="#">Home</a>
   <a href="#">About Us</a>
@@ -84,7 +87,7 @@ title: SATCO | Global Commodities & Supply Chain Partner
   <a href="#">Contact Us</a>
 </nav>
 
-<!-- ۲. بخش معرفی اصلی -->
+<!-- 2. Hero Introduction -->
 <div style="text-align: center; margin: 40px 0;">
   <p style="font-size: 1.2em; color: #555;">
     Expertise in International Logistics, Commodity Sourcing, and Strategic Consulting. <br>
@@ -95,7 +98,7 @@ title: SATCO | Global Commodities & Supply Chain Partner
 
 <hr>
 
-<!-- ۳. نمایش محصولات به صورت باکس‌های شیک به جای لیست زیر هم -->
+<!-- 3. Core Products Grid -->
 <h3>Our Core Products</h3>
 <div class="product-grid">
   <div class="product-card">Cement</div>
