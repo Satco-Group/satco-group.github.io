@@ -35,7 +35,7 @@ title: SATCO | Global Commodities & Supply Chain Partner
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 180px;
+    min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: left;
@@ -43,10 +43,9 @@ title: SATCO | Global Commodities & Supply Chain Partner
   }
   .dropdown-content a {
     color: #333 !important;
-    padding: 12px 16px;
+    padding: 8px 16px;
     display: block;
     margin: 0;
-    border-bottom: 1px solid #eee;
   }
   .dropdown-content a:hover { background-color: #f1f1f1; }
   .dropdown:hover .dropdown-content { display: block; }
@@ -67,27 +66,48 @@ title: SATCO | Global Commodities & Supply Chain Partner
   }
 </style>
 
-<!-- 1. Navigation Menu -->
 <nav class="custom-nav">
   <a href="index.html">Home</a>
   <a href="#">About Us</a>
+  
   <div class="dropdown">
     <a href="#" class="dropbtn">Commodities ▾</a>
     <div class="dropdown-content">
+      <small style="padding: 10px 15px 5px; color: #cc7a00; font-weight: bold; display: block;">Minerals</small>
       <a href="#">Cement</a>
       <a href="#">Clinker</a>
       <a href="#">Dolomite</a>
-      <a href="#">Gypsum Stone</a>
-      <a href="#">Gypsum Powder</a>
+      <a href="#">Gypsum Stone & Powder</a>
       <a href="#">Microsilica</a>
       <a href="#">Calcium Carbonate</a>
+      
+      <div style="border-top: 1px solid #ddd; margin: 5px 0;"></div>
+      
+      <small style="padding: 10px 15px 5px; color: #cc7a00; font-weight: bold; display: block;">Petrochemicals</small>
+      <a href="#">Bitumen</a>
+      <a href="#">Urea</a>
+      <a href="#">Methanol</a>
+      <a href="#">Polyethylene</a>
+      <a href="#">Polypropylene</a>
+      <a href="#">PVC</a>
+      <a href="#">Acetic Acid</a>
+      <a href="#">MEG</a>
+      
+      <div style="border-top: 1px solid #ddd; margin: 5px 0;"></div>
+      
+      <small style="padding: 10px 15px 5px; color: #cc7a00; font-weight: bold; display: block;">Refined Products</small>
+      <a href="#">Sulfur</a>
+      <a href="#">Gas Oil / Diesel</a>
+      <a href="#">Base Oil</a>
+      <a href="#">Fuel Oil / Mazut</a>
+      <a href="#">LPG</a>
     </div>
   </div>
+  
   <a href="#">Logistics Consulting</a>
   <a href="contact.html">Contact Us</a>
 </nav>
 
-<!-- 2. Hero Introduction -->
 <div style="text-align: center; margin: 40px 0;">
   <p style="font-size: 1.2em; color: #555;">
     Expert in International Logistics, Commodity Sourcing, and Strategic Consulting. <br>
@@ -98,7 +118,6 @@ title: SATCO | Global Commodities & Supply Chain Partner
 
 <hr>
 
-<!-- 3. Core Products Grid -->
 <h3>Our Core Products</h3>
 <div class="product-grid">
   <div class="product-card">Cement</div>
