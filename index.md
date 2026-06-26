@@ -4,14 +4,13 @@ title: SATCO | Global Commodities & Supply Chain Partner
 ---
 
 <style>
-  /* Custom Banner Implementation */
   .page-header {
     background-image: url('Banner.png') !important;
     background-size: cover !important;
     background-position: center !important;
   }
 
-  /* Navigation Bar Styling - اصلاح شده برای چیدمان حرفه‌ای و افکت طلایی */
+  /* Navigation Bar Styling */
   .custom-nav {
     background: #1a252f;
     padding: 15px 5px;
@@ -30,18 +29,15 @@ title: SATCO | Global Commodities & Supply Chain Partner
     font-size: 14px;
     cursor: pointer;
     padding: 5px 10px;
-    border-bottom: 2px solid transparent; /* کادر مخفی برای افکت */
-    transition: 0.3s; /* انیمیشن نرم */
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
   }
   .custom-nav a:hover, .dropdown:hover .dropbtn {
-    border-bottom: 2px solid #cc7a00; /* کادر طلایی هنگام هاور */
+    border-bottom: 2px solid #cc7a00;
   }
   
-  /* Dropdown Menu Styling */
-  .dropdown {
-    display: inline-block;
-    position: relative;
-  }
+  /* Dropdown General */
+  .dropdown { display: inline-block; position: relative; }
   .dropdown-content {
     display: none;
     position: absolute;
@@ -59,15 +55,21 @@ title: SATCO | Global Commodities & Supply Chain Partner
     display: block;
     margin: 0;
     font-weight: normal;
-    border-bottom: none !important; /* حذف کادر طلایی برای زیرمنوها */
-  }
-  .dropdown-content a:hover { 
-    background-color: #f1f1f1;
     border-bottom: none !important;
   }
+  .dropdown-content a:hover { background-color: #f1f1f1; }
   .dropdown:hover .dropdown-content { display: block; }
-  
-  /* Product Grid Styling */
+
+  /* Nested Dropdown (Level 2) */
+  .dropdown-submenu { position: relative; }
+  .dropdown-submenu .dropdown-content {
+    top: 0; 
+    left: 100%; 
+    margin-top: -10px;
+  }
+  .dropdown-submenu:hover .dropdown-content { display: block; }
+
+  /* Product Grid */
   .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -87,10 +89,24 @@ title: SATCO | Global Commodities & Supply Chain Partner
   <a href="index.html">Home</a>
   <a href="about.html">About Us</a>
   
+  <!-- Minerals Dropdown -->
   <div class="dropdown">
     <a class="dropbtn">Minerals ▾</a>
     <div class="dropdown-content">
-      <a href="#">Cement</a>
+      <!-- Cement Submenu -->
+      <div class="dropdown-submenu">
+        <a href="#">Cement ‣</a>
+        <div class="dropdown-content">
+          <a href="cement-type1.html">Type 1</a>
+          <a href="cement-type2.html">Type 2</a>
+          <a href="cement-type3.html">Type 3</a>
+          <a href="cement-type4.html">Type 4</a>
+          <a href="cement-type5.html">Type 5</a>
+          <a href="cement-drill.html">Drilling Cement</a>
+          <a href="cement-white.html">White Cement</a>
+          <a href="cement-pozzolanic.html">Pozzolanic</a>
+        </div>
+      </div>
       <a href="#">Clinker</a>
       <a href="#">Dolomite</a>
       <a href="#">Gypsum Stone & Powder</a>
