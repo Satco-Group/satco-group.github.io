@@ -33,11 +33,11 @@ title: Portland Cement Type 1 | Product Specification
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px;">
     <div>
       <h3 style="color: #1a252f;">Product Packaging</h3>
-      <img src="cement-type-1bag.png" alt="Portland Cement Type 1 Bag" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
+      <img src="assets/cement-type-1bag.png" alt="Portland Cement Type 1 Bag" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
     </div>
     <div>
       <h3 style="color: #1a252f;">Loading Operation</h3>
-      <img src="cement-type-1ship.png" alt="Cement Loading Operation" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
+      <img src="assets/cement-type-1ship.png" alt="Cement Loading Operation" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
     </div>
   </div>
 
